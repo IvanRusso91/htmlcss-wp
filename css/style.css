@@ -27,6 +27,9 @@ a{
   margin: 0 auto;
 }
 
+.col{
+  float: left;
+}
 
 /* HEADER */
 
@@ -82,7 +85,7 @@ div.jumbotron{
   margin-bottom: 30px;
 }
 
-.jumbotron .overlay{
+.overlay{
   height: 100%;
   background-color: rgba(0, 0, 0, 0.15);
 }
@@ -98,6 +101,60 @@ div.jumbotron{
 }
 /* /jumbotron */
 
-
 /* MAIN */
+
+div.titolo p{
+  color: rgb(135, 135, 135) ;
+  padding-bottom: 30px;
+}
+
+/* 3 Colonne */
+
+aside{
+  width: 20%;
+}
+
+section{
+  width: 58%;
+  margin: 0 1% 15px;
+}
+
+
+.img-pianta{
+  background-image: url(../img/img-1.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  overflow: hidden;
+  height: 200px;
+}
+
+div.text-left h3, div.text-right  h3, div.text-center h3{
+  padding: 15px 0 15px;
+}
+
+.text-left p, .text-right p, .text-center p{
+  color: rgb(135, 135, 135) ;
+}
+
+.img-lamp{
+  background-image: url(../img/img-3.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  overflow: hidden;
+  height: 200px;
+}
+
+.img-pensante{
+  background-image: url(../img/banner-2.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  overflow: hidden;
+  height: 200px;
+}
+/* /3colonne */
+
+/* footer */
 
