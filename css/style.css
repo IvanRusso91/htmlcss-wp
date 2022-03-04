@@ -79,7 +79,7 @@ div.jumbotron{
   background-size: cover;
   background-position: center;
   width: auto;
-  height: 600px;
+  height: 500px;
   border-radius: 10px;
   overflow: hidden;
   margin-bottom: 30px;
@@ -112,11 +112,12 @@ div.titolo p{
 
 aside{
   width: 20%;
+  
 }
 
 section{
   width: 58%;
-  margin: 0 1% 15px;
+  margin: 0 1% 40px;
 }
 
 
@@ -158,3 +159,13 @@ div.text-left h3, div.text-right  h3, div.text-center h3{
 
 /* footer */
 
+div.saluti h3{
+  text-align: center;
+  margin-bottom: 30px;
+  
+}
+
+span{
+  color: red;
+}
+ 
