@@ -125,31 +125,25 @@ section{
   margin: 0 1% 40px;
 }
 
-.img-pianta{
-  background-image: url(../img/img-1.jpg);
+
+.img-pianta, .img-pensante, .img-lamp{
   background-size: cover;
   background-position: center;
   border-radius: 10px;
   overflow: hidden;
   height: 200px;
+}
+
+.img-pianta{
+  background-image: url(../img/img-1.jpg);
 }
 
 .img-pensante{
   background-image: url(../img/banner-2.jpg);
-  background-size: cover;
-  background-position: center;
-  border-radius: 10px;
-  overflow: hidden;
-  height: 200px;
 }
 
 .img-lamp{
   background-image: url(../img/img-3.jpg);
-  background-size: cover;
-  background-position: center;
-  border-radius: 10px;
-  overflow: hidden;
-  height: 200px;
 }
 
 div.text-left h3, div.text-right h3, div.text-center h3{
